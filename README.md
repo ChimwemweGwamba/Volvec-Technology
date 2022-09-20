@@ -1,0 +1,1 @@
+This project is a website built using React, it serves as a concept business website for Volvec Technology
