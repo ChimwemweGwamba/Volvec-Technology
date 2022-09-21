@@ -1,11 +1,10 @@
 import './App.css';
+import Nav from './components/nav/nav';
 
 function App() {
   return (
     <div>
-        <h1>
-          Volvec Technology Website
-        </h1>
+        <Nav></Nav>
     </div>
   );
 }

@@ -1,0 +1,33 @@
+.navContainer{
+    border: solid 1px red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+
+.logo{
+    border: solid 1px green;
+}
+
+.logo h1{
+
+}
+
+.navBar{
+    border: solid 1px green;
+}
+
+.navBar ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.navBar li{
+    border: solid 1px blue;
+    margin: 0 0 0 30px;
+    list-style-type: none;
+}
