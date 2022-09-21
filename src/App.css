@@ -1,0 +1,17 @@
+.container{
+    width: 80%;
+    margin: 0 auto 0 auto;
+    /* border: solid 1px blue; */
+}
+
+
+h1{
+    margin: 0;
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+}
+
+p{ 
+    font-size: 17px;
+    margin: 0;
+}

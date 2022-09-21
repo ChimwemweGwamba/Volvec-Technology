@@ -1,33 +1,40 @@
+/* ======== Container ============= */
+
 .navContainer{
-    border: solid 1px red;
+    padding: 40px 0 40px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
-    margin: auto;
 }
 
+
+/* ======== Logo ============= */
 
 .logo{
-    border: solid 1px green;
+    height: 40px;
 }
 
-.logo h1{
-
+.logo img{
+    height: 100%;
 }
 
-.navBar{
-    border: solid 1px green;
-}
 
-.navBar ul{
+/* ================== Navigation Bar ================ */
+
+.navContainer ul{
     display: flex;
     flex-direction: row;
     margin: 0;
 }
 
-.navBar li{
-    border: solid 1px blue;
+.navContainer li{
     margin: 0 0 0 30px;
-    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navContainer a{
+    text-decoration: none;
+    margin: auto 0 auto 0;
 }

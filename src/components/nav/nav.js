@@ -1,33 +1,31 @@
 import React from 'react'
 import './nav.css'
+import logo from '../../assets/images/logo_text.png';
 
 
 function Nav() {
   return (
     <div className='navContainer'>
         <div className='logo'>
-            <h3>
-                Logo
-            </h3>
+            <img src={logo} alt="Logo" />
         </div>
 
-        <div className='navBar'>
-            <ul>
-                <li>
-                    <p>Home</p>
-                </li>
-                <li>
-                    <p>Services</p>
-                </li>
-                <li>
-                    <p>Request</p>
-                </li>
-                <li>
-                    <p>Contact Us</p>
-                </li>
-            </ul>
 
-        </div>
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">Request</a>
+            </li>
+            <li>
+                <a href="#">Contact Us</a>
+            </li>
+        </ul>
+
     </div>
   )
 }

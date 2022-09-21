@@ -1,0 +1,38 @@
+.servicesContainer{
+    text-align: center;
+}
+
+.servicesContainer h1{
+    margin-bottom: 30px;
+}
+
+.servicesContainer p{
+    width: 70%;
+    margin: auto;
+}
+
+
+
+.serviceContainer{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.service{
+    border: solid 1px rgb(255, 0, 0);
+    border-radius: 10px;
+    width: 30%;
+    padding: 35px 0;
+}
+
+.service p{
+    width: 90%;
+}
+
+.service img{
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: 20px;
+}
