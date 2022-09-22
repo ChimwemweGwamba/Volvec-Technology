@@ -1,0 +1,42 @@
+.salesPointContainer{
+
+}
+
+.salesPoint{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+
+.salesPointText{
+    width: 40%;
+    height: fit-content;
+    margin: auto 0;
+}
+
+.salesPoint ul{
+    padding: 0;
+}
+
+.salesPoint li{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.salesPointText img{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    padding: 10px 0;
+}
+
+.salesPointImg{
+    width: 50%;
+}
+
+.salesPointImg img{
+    width: 100%;
+}

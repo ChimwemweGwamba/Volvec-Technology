@@ -22,7 +22,7 @@ function Nav() {
                 <a href="#">Request</a>
             </li>
             <li>
-                <a href="#">Contact Us</a>
+                <a href="#">Contact</a>
             </li>
         </ul>
 

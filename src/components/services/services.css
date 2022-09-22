@@ -1,9 +1,6 @@
 .servicesContainer{
     text-align: center;
-}
-
-.servicesContainer h1{
-    margin-bottom: 30px;
+    padding: 0 0 100px 0;
 }
 
 .servicesContainer p{
