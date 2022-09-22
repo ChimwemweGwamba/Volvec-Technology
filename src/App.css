@@ -1,7 +1,15 @@
+.bannerSectionContainer{
+    background-image: url('./assets/images/red-header.svg');  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
 .container{
     width: 80%;
     margin: 0 auto 0 auto;
-    /* border: solid 1px blue; */
 }
 
 
@@ -9,9 +17,17 @@ h1{
     margin: 0;
     font-size: 2.5rem;
     line-height: 3.125rem;
+    margin-bottom: 30px;
 }
 
 p{ 
     font-size: 17px;
+    line-height: 1.5;
     margin: 0;
+    color: #626262;
+}
+
+.footerContainer{
+    background-color: #f1fdff;
+    padding: 50px 0 0 0;
 }

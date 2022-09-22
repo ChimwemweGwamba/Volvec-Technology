@@ -37,4 +37,7 @@
 .navContainer a{
     text-decoration: none;
     margin: auto 0 auto 0;
+    color: white;
+    font-weight: 600;
 }
+
