@@ -1,3 +1,4 @@
+import React, { useState } from 'react'
 import './App.css';
 import Nav from './components/nav/nav';
 import Banner from './components/banner/banner';
@@ -5,11 +6,15 @@ import Services from './components/services/services';
 import SalesPoint from './components/salesPoint/salesPoint';
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
-
+import PopUp from './components/popUp/popUp';
 
 
 
 function App() {
+
+  //pop up state
+  const [toggle, setToggle] = useState(false)
+
   return (
     <div>
       <div className='bannerSectionContainer'>
@@ -21,7 +26,7 @@ function App() {
 
       <div className='container'>
         <Services></Services>
-        <SalesPoint></SalesPoint>
+        <SalesPoint openPopUp = {action => setToggle(action)}></SalesPoint>
       </div>
 
       <div className='footerContainer'>
@@ -30,6 +35,13 @@ function App() {
           <Footer></Footer>
         </div>
       </div>
+
+      {toggle && (
+        <div className='popUp'>
+          <PopUp closePopUp = {action => setToggle(action)}></PopUp>
+        </div>
+      )}
+      
     </div>
   );
 }

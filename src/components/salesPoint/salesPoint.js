@@ -1,13 +1,12 @@
 import React from 'react'
 import './salesPoint.css'
-import Button from '../button/button'
 import dev from '../../assets/images/dev_productivity.svg';
 import scrum from '../../assets/images/Scrum_board.svg';
 import check from '../../assets/images/check.png';
 import customer from '../../assets/images/business_deal (1).svg';
 
 
-function SalesPoint() {
+function SalesPoint(props) {
   return (
     <div className='salesPointContainer'>
       <div className='salesPoint'>
@@ -21,7 +20,9 @@ function SalesPoint() {
             reduce costs and provide better customer experiences for our clients.
           </p>
 
-          <Button buttonText={'Learn more'}></Button>
+          <div  className='buttonContainer'>
+                <button onClick={() => props.openPopUp(true)}>Learn More</button>
+          </div>
 
         </div>
 

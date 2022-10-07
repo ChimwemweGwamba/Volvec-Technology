@@ -1,0 +1,55 @@
+.popUpContainer{
+
+    border-radius: 7px;
+    padding: 20px 30px;
+    width: 75%;
+    margin: auto;
+    background-color: white;
+}
+
+.popUpContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.close{
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+
+.popUpLeft{
+    width: 55%;
+}
+
+.popUpLeft img{
+    width: 100%;
+}
+
+.popUpRight{
+    width: 40%;
+}
+
+.popUpRightText{
+    height: fit-content;
+    margin: auto 0;
+}
+
+.popUpRightText ul{
+    padding: 0;
+}
+
+.popUpRightText li{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.popUpRightText img{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    padding: 10px 0;
+}

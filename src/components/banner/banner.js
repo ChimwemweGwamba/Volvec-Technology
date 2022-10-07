@@ -1,7 +1,6 @@
 import React from 'react'
 import './banner.css'
 import data from '../../assets/images/Data.svg';
-import Button from '../button/button';
 
 
 function Banner() {
@@ -17,7 +16,9 @@ function Banner() {
                 technology solutions for our clients
             </p>
 
-            <Button buttonText={'DISCOVER'}></Button>
+            <div  className='buttonContainer'>
+                <button>Discover</button>
+            </div>
         </div>
 
         <div className='bannerRight'>

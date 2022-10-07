@@ -4,7 +4,6 @@ import phone from '../../assets/images/phone-call.png';
 import email from '../../assets/images/email.png';
 import address from '../../assets/images/pin.png';
 import mail from '../../assets/images/mail.svg';
-import Button from '../button/button';
 
 
 
@@ -53,7 +52,9 @@ function Contact() {
                     <input type="text" placeholder="Email"></input>
                     <input id='message' type="text" placeholder="Message"></input>
 
-                    <Button buttonText={'Submit'}></Button>
+                    <div  className='buttonContainer'>
+                        <button>Submit</button>
+                    </div>
                 </form>
             </div>
         </div>
